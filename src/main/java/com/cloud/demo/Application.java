@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 	
-	@GetMapping
+	@GetMapping("/message")
 	public String message() {
 		return " If you are seeing this, your deployment is done !! ";
 	}
